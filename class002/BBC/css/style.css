@@ -9,23 +9,21 @@ a {
   color: #fff;
   cursor: pointer;
 }
-h1
-{
-    color: #fff;
-    font-size: 2rem;
+h1 {
+  color: #fff;
+  font-size: 2rem;
 }
-p{
-    color: #d3d3d3;
-    font-size: 1rem;
-    line-height: 22px;
-    padding: 5px 0px;
+p {
+  color: #d3d3d3;
+  font-size: 1rem;
+  line-height: 22px;
+  padding: 5px 0px;
 }
-span
-{
-    display: block;
-    border-left: 2px solid red;
-    padding-left: 5px;
-    color: #d3d3d3;
+span {
+  display: block;
+  border-left: 2px solid red;
+  padding-left: 5px;
+  color: #d3d3d3;
 }
 .navbar {
   width: 100%;
@@ -37,6 +35,20 @@ span
 }
 .contuiner {
   padding: 10px 10px;
+}
+.welcom h3 {
+  color: #2c2c2c;
+  text-align: right;
+  font-weight: normal;
+  font-size: 1.375rem;
+  font-weight: normal;
+}
+.welcom h4 {
+  color: #8c8c8c;
+  text-align: right;
+  font-weight: normal;
+  font-size: 1.375rem;
+  font-weight: normal;
 }
 .logoAndSignin {
   display: flex;
@@ -81,12 +93,11 @@ span
   background-repeat: no-repeat;
   background-size: cover;
 }
-.headline
-{
-    position: relative;
-    width: 100%;
-    top: 35vh;
-    padding: 0px 20px;
+.headline {
+  position: relative;
+  width: 100%;
+  top: 35vh;
+  padding: 0px 20px;
 }
 .secondHeadline {
   width: 49.5%;
@@ -94,33 +105,24 @@ span
   display: flex;
   flex-wrap: wrap;
 }
-.secondHeadline > *
-{
-    width: 49.12%;
-    height: 48.5%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.secondHeadline > * {
+  width: 49.12%;
+  height: 48.5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.secondHeadline :nth-child(1)
-{
+.secondHeadline :nth-child(1) {
   background-image: url(/imgs/images.jpeg);
-    margin: 0px 10px 10px 0px;
+  margin: 0px 10px 10px 0px;
 }
-.secondHeadline :nth-child(2)
-{
+.secondHeadline :nth-child(2) {
   background-image: url(/imgs/the\ online.jpeg);
-
 }
-.secondHeadline :nth-child(3)
-{
-    background-image: url(/imgs/the\ world\ .jpeg);
-    margin: 0px 10px 10px 0px;
-
+.secondHeadline :nth-child(3) {
+  background-image: url(/imgs/the\ world\ .jpeg);
+  margin: 0px 10px 10px 0px;
 }
-.secondHeadline :nth-child(4)
-{
-    background-image: url(/imgs/the\ singer.jpeg);
+.secondHeadline :nth-child(4) {
+  background-image: url(/imgs/the\ singer.jpeg);
 }
-
-
