@@ -1,65 +1,94 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer;
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
 }
-.navbar
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contuiner {
+  padding: 10px 10px;
+}
+.logoAndSignin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  height: auto;
+}
+.signin i {
+  padding-right: 5px;
+  font-size: 22px;
+}
+.menu {
+  width: 70%;
+  height: auto;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.welcom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  width: 100%;
+  height: 100%;
+}
+.headerArticls {
+  width: 100%;
+  height: 60vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainHeadline {
+  width: 49.5%;
+  height: 100%;
+  background-color: blueviolet;
+}
+.secondHeadline {
+  width: 49.5%;
+  height: 100%;
+  background-color: burlywood;
+  display: flex;
+  flex-wrap: wrap;
+}
+.secondHeadline > *
 {
-    width: 100%;
-    height: 10vh;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 49.12%;
+    height: 50%;
 }
-.contuiner
+.secondHeadline :nth-child(1)
 {
-    padding: 10px 10px;
+    background-color: yellowgreen;
+    margin: 0px 10px 10px 0px;
+}
+.secondHeadline :nth-child(2)
+{
+    background-color: violet;
+}
+.secondHeadline :nth-child(3)
+{
+    background-color: tomato;
+}
+.secondHeadline :nth-child(4)
+{
+    background-color: thistle;
+}
 
-}
-.logoAndSignin
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 15%;
-    height: auto;
 
-}
-.signin i 
-{
-    padding-right: 5px;
-    font-size: 22px;
-}
-.menu
-{
-    width: 70%;
-    height: auto;
-
-}
-.menu ul 
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.welcom{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px;
-    width: 100%;
-    height: 100%;
-}
-.headerArticls
-{
-    width: 100%;
-    height: 70vh;
-    background-color: aqua;
-}
