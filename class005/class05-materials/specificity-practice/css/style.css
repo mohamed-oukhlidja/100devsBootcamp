@@ -1,4 +1,8 @@
 /* Please Make only Rhino and Zebra Blue */
+section > h2
+{
+    color: blue;
+}
 
 /* Please Make only Hufflepuff Gold */
 
