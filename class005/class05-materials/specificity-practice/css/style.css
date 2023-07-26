@@ -15,7 +15,7 @@
 }
 
 /* Please select Duck with the highest level of specificity possible */
-.areDucksDinosaurs > .likesToQuack
+article.areDucksDinosaurs > h2.likesToQuack.fight1Or100
 {
     color: aqua;
 }
