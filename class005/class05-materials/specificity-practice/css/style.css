@@ -9,11 +9,15 @@ section article h2 + h2
 {
     color: gold ;
 }
-#bestHouse
-/* {
+/* #bestHouse
+{
     color: gold;
 } */
 
 /* Please select Duck with the highest level of specificity possible */
+.areDucksDinosaurs > .likesToQuack
+{
+    color: aqua;
+}
 
 /* Please select Rhino with the highest level of specificity possible */
