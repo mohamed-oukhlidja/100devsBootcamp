@@ -1,0 +1,31 @@
+header
+{
+    height: 30vh;
+    border-bottom: 2px solid black;
+    width: auto;
+    /* float: left; */
+}
+.section
+{
+    height: 40vh;
+    width: auto;
+    border-bottom: 2px solid black;
+}
+.section > section
+{
+    width: 33.2%;
+    height: 100%;
+    float: left;
+
+}
+section > section + section
+{
+    border-left: 2px solid black;
+    
+}
+
+footer
+{
+    height: 30vh;
+    width: auto;
+}
