@@ -9,6 +9,10 @@ section article h2 + h2
 {
     color: gold ;
 }
+#bestHouse
+/* {
+    color: gold;
+} */
 
 /* Please select Duck with the highest level of specificity possible */
 
