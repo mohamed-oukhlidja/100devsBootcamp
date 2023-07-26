@@ -5,6 +5,10 @@ section > h2
 }
 
 /* Please Make only Hufflepuff Gold */
+section article h2 + h2 
+{
+    color: gold ;
+}
 
 /* Please select Duck with the highest level of specificity possible */
 
