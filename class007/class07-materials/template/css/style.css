@@ -29,14 +29,23 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header, footer {
+  height: 100px;
+  border: 1px solid black;
+  clear: both;
 
 }
-
-footer {
-
+section
+{
+  height: 422px;
+  width: 20%;
+  border: 1px solid black;
+  float: left;
 }
-
+.thikOne
+{
+  width: 40%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
