@@ -1,0 +1,27 @@
+/* colors variables*/
+:root{
+    --main-bg-color:#65768b;
+    --alt-bg-color:#161f2a;
+    --main-txt-color:#f1f1f1;
+    --alt-txt-color:#161f2a;
+}
+
+
+
+nav {
+    background-color: brown;
+    height: 10vh;
+
+}
+
+nav ul
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#logo{
+  
+}
