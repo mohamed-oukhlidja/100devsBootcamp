@@ -5,6 +5,7 @@
 :root {
   --main-bg-color: #66768a;
   --alt-bg-color: #161f2a;
+  --therd-bg-color:#dbdfe2;
   --main-txt-color: #f1f1f1;
   --alt-txt-color: #161f2a;
   --font-family: "Poppins", sans-serif;
@@ -80,7 +81,30 @@ h1 {
 }
 
 #watch-vedio{
-    padding: 0px 100px;
+    padding: 0px 50px;
+}
+
+.white-container
+{
+    background: var(--main-txt-color);
+    color: var(--alt-txt-color);
+
+}.grey-container
+{
+    background: var(--therd-bg-color);
+    color: var(--alt-txt-color);
+}
+.container-pading
+{
+    padding: 90px 0px;
+}
+h2 {
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+.white-container p{
+    padding: 0px 290px;
 }
 
 
