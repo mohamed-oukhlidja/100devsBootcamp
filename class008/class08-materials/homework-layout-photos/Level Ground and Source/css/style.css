@@ -5,7 +5,7 @@
 :root {
   --main-bg-color: #66768a;
   --alt-bg-color: #161f2a;
-  --therd-bg-color:#dbdfe2;
+  --therd-bg-color: #dbdfe2;
   --main-txt-color: #f1f1f1;
   --alt-txt-color: #161f2a;
   --font-family: "Poppins", sans-serif;
@@ -43,7 +43,8 @@ a {
   display: inline-block;
   padding: 0px 10px;
 }
-.btn{
+.btn {
+  text-transform: uppercase;
   padding: 8px 8px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -51,12 +52,24 @@ a {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+.btn-main {
+  background: none;
+  color: var(--alt-txt-color);
+  border: 0.5px solid var(--alt-txt-color);
+  padding: 10px 50px;
+  margin-top: 50px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
 .btn-alt {
   background: #fff;
   color: var(--main-bg-color);
-  
 }
-.btn-alt:hover {
+.btn-alt:hover,
+.btn-main:hover{
   background-color: var(--alt-txt-color);
   color: var(--main-txt-color);
   transition: 0.3s;
@@ -65,7 +78,6 @@ a {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-
 
 .container {
   background: var(--main-bg-color);
@@ -77,43 +89,47 @@ h1 {
   font-size: 60px;
   line-height: 1.5;
   width: 100%;
-}
-.container p
-{
-    line-height: 1.5;
-    padding: 0px 110px;
-}
-
-#watch-vedio{
-    padding: 0px 50px;
-}
-
-.white-container
-{
-    background: var(--main-txt-color);
-    color: var(--alt-txt-color);
-
-}.grey-container
-{
-    background: var(--therd-bg-color);
-    color: var(--alt-txt-color);
-}
-.container-pading
-{
-    padding: 90px 0px;
+  text-transform: uppercase;
 }
 h2 {
-    font-size: 32px;
-    line-height: 1.5;
-    font-weight: 500;
-  }
-.white-container p{
-    padding: 0px 290px;
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: 500;
+  text-transform: uppercase;
 }
-.flex{
+h3 {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+.container p {
+  line-height: 1.5;
+  padding: 0px 110px;
+}
+
+#watch-vedio {
+  padding: 0px 50px;
+}
+
+.white-container {
+  background: var(--main-txt-color);
+  color: var(--alt-txt-color);
+}
+.grey-container {
+  background: var(--therd-bg-color);
+  color: var(--alt-txt-color);
+}
+.container-pading {
+  padding: 90px 0px;
+}
+
+.white-container p {
+  padding: 0px 290px;
+}
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
