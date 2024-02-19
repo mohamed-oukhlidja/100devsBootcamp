@@ -1,6 +1,7 @@
 //Handle Capital Letters, Place result in DOM, add a check for humpday (Wed)
 
 document.querySelector('#check').addEventListener('click', check)
+let dayHolder = document.querySelector('#day');
 
 function check() {
 
