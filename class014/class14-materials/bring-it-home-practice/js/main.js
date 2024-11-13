@@ -12,3 +12,4 @@
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
+ 

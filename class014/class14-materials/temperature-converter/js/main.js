@@ -1,1 +1,4 @@
 //Write your pseduo code first! 
+// FISRT YOU GET YOU TEMP FORM THE DOM 
+// ASSIGNT IT TO A AVR 
+// CREATE A FUN TO CONVERT IT 
